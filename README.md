@@ -1,3 +1,4 @@
+
 # BoardScan: Whiteboard to Vectorization 🖍️✨
 
 **Digitizing Hand-Drawn Intelligence.** BoardScan was developed to solve the "Analog Data Loss" problem. During brainstorming, valuable insights are often left on whiteboards or captured in low-quality photos that cannot be edited or scaled. 
@@ -10,7 +11,7 @@ This project is a complete end-to-end pipeline—from handheld mobile capture to
 
 ## 🎥 Video Demo
 
-![BoardScan Demo](./assets/demo.mp4)
+[![BoardScan Demo](./assets/demo.mp4)](https://github.com/user-attachments/assets/d1b8bbb7-8382-4a39-b055-d943bb91477d)
 
 ---
 
