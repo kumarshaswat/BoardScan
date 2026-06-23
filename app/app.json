@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "BoardScan",
+    "slug": "boardscan",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0D0D14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "BoardScan uses your camera to photograph whiteboards.",
+        "NSPhotoLibraryUsageDescription": "BoardScan imports whiteboard images from your photo library.",
+        "NSPhotoLibraryAddUsageDescription": "BoardScan saves processed whiteboards to your photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D0D14"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "BoardScan imports whiteboard images from your photo library.",
+          "cameraPermission": "BoardScan uses your camera to photograph whiteboards."
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
